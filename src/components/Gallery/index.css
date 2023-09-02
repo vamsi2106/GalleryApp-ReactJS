@@ -1,0 +1,42 @@
+* {
+  font-family: 'Roboto';
+}
+.main-container {
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gallery-container {
+  padding: 12px;
+}
+.displayImage {
+  width: 50%;
+}
+ul {
+  display: flex;
+  margin-left: -4%;
+}
+li {
+  list-style: none;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12%;
+  }
+  .displayImage {
+    width: 80vw;
+  }
+}
+h1 {
+  color: #1e293b;
+}
+p {
+  color: #64748b;
+  font-weight: 600;
+}
